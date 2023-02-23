@@ -23,12 +23,12 @@ class EnderecoController extends Controller
 
     }
 
-    public static function GetBairrosByIdCidade() : void
+    public static function GetBairroByIdCidade() : void
     {
 
     }
 
-    public static function GetCidadesByUF() : void
+    public static function GetCidadeByUF() : void
     {
         
     }
