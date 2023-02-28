@@ -2,7 +2,7 @@
 
 namespace ApiCep\DAO;
 
-class EnderecoDAO extends DAO
+class CidadeDAO extends DAO
 {
     
 }
