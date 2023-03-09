@@ -2,7 +2,7 @@
 
 namespace ApiCep\Model;
 
-use \Exception;
+use Exception;
 
 class BairroModel extends Model
 {
