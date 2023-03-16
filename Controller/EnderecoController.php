@@ -21,7 +21,7 @@ class EnderecoController extends Controller
         }
         catch (Exception $e)
         {
-            //parent::getExceptionAsJSON($e);
+            parent::getExceptionAsJSON($e);
         }
     }
 
