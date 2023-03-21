@@ -27,7 +27,14 @@ class EnderecoController extends Controller
 
     public static function GetLogradouroByBairroAndCidade() : void 
     {
-        
+        try 
+        {
+            //$bairro
+        } 
+        catch (Exception $ex) 
+        {
+            
+        }
     }
 
     public static function GetLogradouroByCep() : void
