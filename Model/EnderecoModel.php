@@ -65,4 +65,18 @@ class EnderecoModel extends Model
             echo $e->getMessage();
         }
     }
+
+    /*public function getCidadesByUF($uf)
+    {
+        try
+        {
+            $dao = new EnderecoDAO();
+
+            $this->rows = $dao->selectCidadesByUF($uf);
+        }
+        catch(Exception $e)
+        {
+           echo $e->getMessage(); 
+        }
+    }*/
 }
