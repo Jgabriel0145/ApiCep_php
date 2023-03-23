@@ -19,11 +19,11 @@ switch ($url)
         break;
 
     case '/cidade/by-uf':
-        EnderecoController::GetCidadeByUf();
+        EnderecoController::GetCidadesByUf();
         break;
 
     case '/bairro/by-cidade':
-        EnderecoController::GetBairroByIdCidade();
+        EnderecoController::GetBairrosByIdCidade();
         break;
 
     default:
