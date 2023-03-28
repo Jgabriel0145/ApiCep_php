@@ -1,6 +1,6 @@
 <?php
 
-namespace ApiCep\Model;
+namespace ApiCep_php\Model;
 
 use Exception;
 

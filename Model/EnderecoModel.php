@@ -1,8 +1,8 @@
 <?php
 
-namespace ApiCep\Model;
+namespace ApiCep_php\Model;
 
-use ApiCep\DAO\EnderecoDAO;
+use ApiCep_php\DAO\EnderecoDAO;
 use Exception;
 
 class EnderecoModel extends Model

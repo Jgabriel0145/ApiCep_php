@@ -1,8 +1,8 @@
 <?php
 
-namespace ApiCep\DAO;
+namespace ApiCep_php\DAO;
 
-use ApiCep\Model\EnderecoModel;
+use ApiCep_php\Model\EnderecoModel;
 
 class EnderecoDAO extends DAO
 {
@@ -19,7 +19,7 @@ class EnderecoDAO extends DAO
         $stmt->bindValue(1, $cep);
         $stmt->execute();
 
-        $endereco_obj = $stmt->fetchObject("ApiCep\Model\EnderecoModel");
+        $endereco_obj = $stmt->fetchObject("ApiCep_php\Model\EnderecoModel");
 
         $endereco_obj->arr_cidades = $this->selectCidadesByUf($endereco_obj->UF);
 

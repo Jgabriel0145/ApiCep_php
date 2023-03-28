@@ -1,6 +1,6 @@
 <?php
 
-namespace ApiCep\Controller;
+namespace ApiCep_php\Controller;
 
 class CidadeController extends Controller
 {
