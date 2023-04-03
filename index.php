@@ -4,8 +4,18 @@ include 'config.php';
 include 'autoload.php';
 include 'rotas.php';
 
-$cidades = ['Jaú', 'Bariri', 'Itapuí', 'Dois Córregos'];
+echo 'Servidor funcionando!';
 
-include 'Controller/Controller.php';
+/* TESTES
 
-\ApiCep_php\Controller\Controller::GetResponseAsJSON($cidades);
+/endereco/by-cep?cep=17210580
+
+/logradouro/by-bairro?id_cidade=4874&bairro=Jardim América
+
+/cep/by-logradouro?logradouro=Rua Raphael
+
+/cidade/by-uf?uf=SP
+
+/bairro/by-cidade?id_cidade=4874
+
+*/
